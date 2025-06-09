@@ -1,0 +1,5 @@
+[
+  {"question": "What is the capital of France?", "answer": "Paris", "category": "Geography", "difficulty": "Easy"},
+  {"question": "What is 2 + 2?", "answer": "4", "category": "Math", "difficulty": "Easy"},
+  {"question": "Who wrote '1984'?", "answer": "George Orwell", "category": "Literature", "difficulty": "Medium"}
+]
