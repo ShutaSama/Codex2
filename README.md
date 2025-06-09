@@ -1,5 +1,7 @@
 # Codex2
 
+[![CI](https://github.com/example/codex2/actions/workflows/ci.yml/badge.svg)](https://github.com/example/codex2/actions/workflows/ci.yml)
+
 Codex2 is a simple command-line quiz application. It now uses the
 [Rich](https://github.com/Textualize/rich) library to provide colored output
 and a nicer interface.
@@ -26,6 +28,14 @@ To run the test suite:
 
 ```bash
 pytest
+```
+
+### Docker
+You can also run the quiz in a Docker container:
+
+```bash
+docker build -t codex2 .
+docker run -it codex2
 ```
 
 ## Future Plans

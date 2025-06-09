@@ -10,7 +10,7 @@ description = "Simple command line quiz app"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = ["Programming Language :: Python :: 3"]
-dependencies = ["rich"]
+dependencies = ["rich", "requests"]
 
 [project.scripts]
 quizapp = "quizapp.quiz:main"

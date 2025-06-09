@@ -1,2 +1,4 @@
 rich
 pytest
+requests
+flake8
