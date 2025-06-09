@@ -8,10 +8,10 @@ and a nicer interface.
 First install the dependencies:
 
 ```bash
-pip install rich
+pip install -r requirements.txt
 ```
 
-Then run `python quiz.py` to start the quiz.
+Then run `python -m quizapp.quiz` to start the quiz.
 
 ## Future Plans
 - Add more questions
