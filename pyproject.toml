@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex2"
+version = "0.1.0"
+authors = [{name="Codex", email="codex@example.com"}]
+description = "Simple command line quiz app"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["rich"]
+
+[project.scripts]
+quizapp = "quizapp.quiz:main"
